@@ -8,7 +8,7 @@ user is "active" if they have taken a trip since June 1, 2014. The data,
 test sets.  
 
 
-Here is a detailed description of the data:
+### Description of the data:
 
 - `city`: city this user signed up in phone: primary device for this user
 - `signup_date`: date of account registration; in the form `YYYYMMDD`
@@ -22,3 +22,12 @@ Here is a detailed description of the data:
 - `luxury_car_user`: TRUE if the user took a luxury car in their first 30 days; FALSE otherwise 
 - `weekday_pct`: the percent of the user’s trips occurring during a weekday
 
+
+### Workflow:
+1. Perform any cleaning, exploratory analysis, and/or visualizations to use the provided data for this analysis.
+2. Build a predictive model to help determine the probability that a rider will be retained.
+3. Evaluate the model. Focus on metrics that are important for the statistical model.
+4. Identify / interpret features that are the most influential in affecting the predictions.
+5. Discuss the validity of the model. Issues such as leakage. For more on leakage, see this essay on Kaggle, and this paper: Leakage in Data Mining: Formulation, Detection, and Avoidance.
+6. Repeat 2 - 5 until find the best model.
+7. Consider business decisions that the model may indicate are appropriate. Evaluate possible decisions with metrics that are appropriate for decision rules.
